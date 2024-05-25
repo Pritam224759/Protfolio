@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritam Portfolio Wbesite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5fce96eba9.js" crossorigin="anonymous"></script>
+    <style>
+        #element{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Image/Pritam Patel ..png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contant">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+              <p>JAVA FullStack Developer</p>
+              <h1>Hi, I'm <span>Pritam Patel .</span></h1>
+              <span id="element"></span>  
+            </div>           
+        </div>
+    </div>
+    <!-------------About------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="coll1">
+                <img src="Image/Pritam passport photo.jpg"> 
+            </div>             
+                <div class="coll2">
+                <h1 class="sub-title">About Me</h1>
+                <p> My Goal is to become associate with a company where I can utilize my skill and gain experience while
+                    enhancing the company’s productivity and reputation. A highly motivated and hardworking individual skilled in <b>FullStack Java Developer.</b> </p>
+            
+                <div class="tab-titles">
+                    <p class="tab-links activelink" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('tools')">Tools/IDE</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents activetab" id="skills">
+                    <ul>
+                        <li><span>UI</span><br>HTML<br>CSS</li>
+                        <li><span>Core Java</span></li>
+                        <li><span>Advance Java</span><br>JDBC<br>Servlet<br>JSP</li>
+                        <li><span>Spring</span></li>
+                        <li><span>Spring Boot</span></li>
+                        <li><span>Microservices</span></li>
+                        <li><span>Oracle</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="tools">
+                    <ul>
+                        <li><span>Eclipse IDE</span></li>
+                        <li><span>Intellij IDE</span></li>
+                        <li><span>VS Code</span></li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Master in Computer Application ( MCA )</span><br>From Dr. Ambedkar Memorial Institute of Information
+                            Technology and Management science ( DAMITS ), Under BPUT Rourkela, Odisha in 2023.<br></li>
+                        <li><span>Bachelor of Science ( Honours ) [ B.Sc ]</span><br>From Jasoda Bishnu College, Sardhapali Under Sambalpur
+                            University, Jyoti Vihar Burla, Odisha in 2019.<br></li>
+                        <li><span>Council of Higher Secondary Education, Bhubaneswer, Odisha ( CHSE )</span><br>From Fashimal Anchalik
+                            College, Fashimal with 2016</li>
+                        <li><span>Board of Secondary Education, Odisha ( BSE )</span><br>From Balram High School, Kusumi in 2014 .</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+     <!-------------services------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI</h2>
+                    <p><u>Front-End Development:</u></p><br>
+                    <p> My primary responsibility is to translate UI designs into functional code. <br>
+                        I can work with HTML, CSS, bootstrap, JavaScript and React JS to build responsive and visually appealing interfaces.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>As a proficient Java developer, I provide comprehensive development services tailored to meet your business needs. <br><br>Whether you're looking to build robust enterprise applications, optimize existing systems, or develop seamless integrations, my expertise can help you achieve your goals. </p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h2>SpringBoot</h2>
+                    <p>Spring Boot can serve static content like HTML, CSS, JavaScript images, and other resources directly from the project.
+                        <br><br><u>Dynamic Content like :-</u>
+                        <br><br>-> RESTful APIs
+                        <br>-> Server-Side Templating Engines
+                        <br>-> Server-Sent Events (SSE) or WebSockets
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL</h2>
+                    <p><U>Backend Development:</U> <br><br>
+                        Java and SQL skills are a perfect foundation for building dynamic web applications. <br><br>
+                        Work on server-side logic, database interactions, and APIs using frameworks like Spring Boot, JPA (Java Persistence API), and various web servers like Tomcat or Jetty.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+     <!-------------portfolio / My Project------------------->
+     <div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="Image/work-1.png" alt="work-1">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ea veniam perferendis aspernatur placeat impedit fuga! Enim consequatur ipsam iste quo, quibusdam accusantium eius dicta sed. Cupiditate commodi rerum repellat.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-2.png" alt="work-1">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ea veniam perferendis aspernatur placeat impedit fuga! Enim consequatur ipsam iste quo, quibusdam accusantium eius dicta sed. Cupiditate commodi rerum repellat.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-3.png" alt="work-1">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ea veniam perferendis aspernatur placeat impedit fuga! Enim consequatur ipsam iste quo, quibusdam accusantium eius dicta sed. Cupiditate commodi rerum repellat.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+     </div>
+    </div>
+
+    <!-------------ContactMe------------------->
+
+    <div id="contant">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>patel.pritam1999@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i>7681807927</p>
+                    <div class="socialicon">
+                        <a href="https://www.instagram.com/pritampatel489"><i class="fa-brands fa-instagram"></i></a>                  
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/Pritam224759"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://youtube.com/@ppcreation6913?si=AoXsgeX66ejhAfer"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="Pritam Resume [ SpringBoot ].pdf"class="btn btn2">Download CV</a>
+                <div class="contactright">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Pritam Patel <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activelink");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+
+
+    </script>
+
+    <script>
+        
+        var sidem = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidem.style.right = "0";
+        }
+
+        function closemenu(){
+            sidem.style.right = "-200px";
+        }
+        
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzfqY4vZeebfKv0Q6GFsZ9NV6o4fA6vYY4rwhlIKJei-b7MPHENIEetiawZQCIn_bI9Kw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Send Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    <!-- Load library from the CDN-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+ <!-- Setup and start animation! -->
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['JAVA Full Stack Developer','JAVA Developer', 'Web Developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
